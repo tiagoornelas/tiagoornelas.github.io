@@ -5,38 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Tiago Ornelas</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 40px;
+            background-color: #F8F6F2;
+            font-family: 'Merriweather', serif;
+            color: #50808E;
+        }
+
+        div {
+            margin: 30px 0px 0px 0px;
+            padding: 10px 20px;
+        }
+
+        a {
+            color: #5E503F;
+        }
+
+        h1 {
+            color: #0F171A;
+        }
+
+        .picture {
+            border-radius: 10px;
+            margin: 10px 50px 20px 20px;
+            height: 150px;
+            float: left;
+        }
+
+        .teal-div {
+            border-radius: 10px;
+            background-color: #50808E;
+            color: #EAE0D5;
+        }
+
+        .teal-div a {
+            color: #EAE0D5;
+        }
+
+        .emphasis {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <h1 id="profile">Tiago Martins Ornelas</h1>
-    <img id="picture" width="15%" src="https://media-exp1.licdn.com/dms/image/C4D03AQHT87xnrwBTKQ/profile-displayphoto-shrink_200_200/0/1617743953764?e=1623888000&v=beta&t=pj4pdSOHQFqJ6cuUqKvK_GLjxfOU-98MQ_xYJPQkrjw" alt="Foto de Tiago Ornelas">
-    <ul>
-        <li><i>Estudante de Desenvolvimento Web na Trybe</i></li>
-        <li><i>Formação prévia na área do Direito</i></li>
-        <li><i>Morando atualmente em São Francisco do Glória/MG</i></li>
-        <li><a href="https://tiagoornelas.com" target="_blank">tiagoornelas.com</a></li>
-    </ul>
-    <hr>
-    <h3 id="skills">Habilidades:</h3>
-    <ul>
-        <li><b>Rápido aprendizado</b></li>
-        <li>Liderança</li>
-        <li>Adaptabilidade</li>
-        <li>Capacidade de perfomar sob pressão</li>
-    </ul>
-    <hr>
-    <h3 id="links">Links Úteis:</h3>
-    <ul>
-        <li><a href='#picture'>Veja minha foto de perfil.</a></li>
-        <li><a href='https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk' target="_blank">
-            Veja o tipo de conteúdo que eu gosto.</a></li>
-    </ul>
-    <hr>
-    <h3>Índice</h3>
-    <ol>
-        <li><a href='#profile'>Perfil</a></li>
-        <li><a href='#skills'>Habilidades</a></li>
-        <li><a href='#links'>Links Úteis</a></li>
-    </ol>
-
+    <img class="picture" src="https://media-exp1.licdn.com/dms/image/C4D03AQHT87xnrwBTKQ/profile-displayphoto-shrink_200_200/0/1617743953764?e=1623888000&v=beta&t=pj4pdSOHQFqJ6cuUqKvK_GLjxfOU-98MQ_xYJPQkrjw" alt="Foto de Tiago Ornelas">
+    <header>
+        <h1 id="profile">Tiago Martins Ornelas</h1>
+        <ul>
+            <li><i>Estudante de Desenvolvimento Web na <strong>Trybe</strong></i></li>
+            <li><i>Formação prévia na área do Direito</i></li>
+            <li><i>Morando atualmente em São Francisco do Glória/MG</i></li>
+            <li><a href="https://tiagoornelas.com" target="_blank">tiagoornelas.com</a></li>
+        </ul>
+    </header>
+   
+    <div class="teal-div">
+        <h3 id="skills">Habilidades:</h3>
+        <ul>
+            <li class="emphasis"><b>Rápido aprendizado</b></li>
+            <li>Liderança</li>
+            <li>Adaptabilidade</li>
+            <li>Capacidade de perfomar sob pressão</li>
+        </ul>
+    </div>
+    <div>
+        <h3 id="links">Links Úteis:</h3>
+        <ul>
+            <li><a href='#picture'>Veja minha foto de perfil.</a></li>
+            <li><a href='https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk' target="_blank">
+                Veja o tipo de conteúdo que eu gosto.</a></li>
+        </ul>
+    </div>
+    
+    <div class="teal-div">
+        <h3>Índice</h3>
+        <ol>
+            <li><a href='#profile'>Perfil</a></li>
+            <li><a href='#skills'>Habilidades</a></li>
+            <li><a href='#links'>Links Úteis</a></li>
+        </ol>
+    </div>
 </body>
 </html>
