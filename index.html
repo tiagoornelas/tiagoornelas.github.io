@@ -1,51 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Tiago Ornelas</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet"> <!--Ref.: Google Fonts-->
+    <title>Tiago Ornelas - Lessons Learned</title>
 </head>
 <body>
-    <img class="picture" src="https://media-exp1.licdn.com/dms/image/C4D03AQHT87xnrwBTKQ/profile-displayphoto-shrink_200_200/0/1617743953764?e=1623888000&v=beta&t=pj4pdSOHQFqJ6cuUqKvK_GLjxfOU-98MQ_xYJPQkrjw" alt="Foto de Tiago Ornelas">
-    <header>
-        <h1 id="profile">Tiago Martins Ornelas</h1>
-        <ul>
-            <li><i>Morando atualmente em <strong>São Francisco do Glória/MG</strong></i></li>
-            <li><i>Estudante de Desenvolvimento Web na <strong>Trybe</strong></i></li>
-            <li><i>Formação prévia na área do <strong>Direito</strong></i></li>
-            <li><a href="https://tiagoornelas.com" target="_blank">tiagoornelas.com</a></li>
-        </ul>
+    <header id="cabecalho">
+        <h1 id="titulo">Lições Aprendidas</h1>
     </header>
+    <section id="left_fixed">
+        <div class="left_bg">
+            <img class="blur_bg" src="./img/blur_bg.jpg" alt="Imagem Aérea de Fundo"> <!--Fonte: Unsplash-->
+        </div>
+        <div class="profile">
+            <img id="minha_foto" src="./img/Tiago_Joy.png" alt="Foto de Perfil de Tiago Ornelas">
+        </div>
+    </section>
+    <section id="facts">
+        <ul>
+            <h2>Tiago Martins Ornelas</h2>
+            <li>São Francisco do Glória, MG</li>
+            <li>Estudando de Desenvolvimento Web</li>
+        </ul>
+    </section>
+    <section id="content">
+        <article id="lado-esquerdo">
+            <h3>"Lá e de Volta Outra Vez"</h3>
+            <p>Na foto ao lado, eu estava comemorando minha formatura no curso de Direito e, apesar de ter muito orgulho da minha profissão e dos meus quatro anos atuando como advogado, decidi que era hora de botar de novo o pé na estrada e deixar o conforto do Condado para trás.</p>
+            <p>A tecnologia sempre esteve comigo durante toda minha vida e vejo com naturalidade o fato de eu, finalmente, estar confiando nela para construir o meu futuro profissional.</p>
+            <p>Inicio essa jornada <s>inesperada</s> levando o Condado em meu coração, com a promessa de voltar e trazer as ferramentas necessárias para ajudar na mudança que, com certeza, ocorrerá nos próximos anos no mundo jurídico brasileiro.</p><br>
+            <p><em>"Seu lar ficou para trás agora. O mundo está à sua frente."</em></p>
+        </article>
+        <aside id="lado-direito">
+            <p><em>"Mesmo a menor das criaturas pode mudar o futuro."</em></p>
+            <ol id="licoes_aprendidas">
+                <h3>Lições Aprendidas</h3>
+                <li>Unix</li>
+                <li>Bash</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Internet</li>
+                <li>HTML</li>
+                <li>Seletores</li>
+                <li>Posicionamento</li>
+                <li>CSS</li>
+                <li>Soft Skills</li>
+            </ol>
+            <ul id="licoes_a_aprender">
+                <h3>Lições a Aprender</h3>
+                <li>Javascript</li>
+                <li>Jest</li>
+                <li>React</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>NodeJS</li>
+                <li>Deployment</li>
+                <li>Sockets</li>
+                <li>Agile Methodology</li>
+                <li>Soft Skills</li>
+            </ul>
+        </aside>
+    </section>
+    <footer id="rodape">
+        <p>Criado por <a href='https://github.com/tiagoornelas' target='_blank'>Tiago Martins Ornelas</a></p>
+        <p><strong>Trybe 2021</strong></p>
+        <nav>
+            <ul> <!--Fonte: Iconfinder-->
+                <li><a href="http://instagram.com/tiagoornelas" target="_blank"><img src="./img/ig_icon.png" alt="Logotipo do Instagram"></a></li>
+                <li><a href="https://open.spotify.com/playlist/7b3pIzIAIhiStOsa95og5E?si=e9639dc2f75045fd" target="_blank"><img src="./img/sptf_icon.png" alt="Logotipo do Spotify"></a></li>
+                <li><a href="https://github.com/tiagoornelas" target="_blank"><img src="./img/git_icon.png" alt="Logotipo do GitHub"></a></li>
+            </ul>
+        </nav>
+    </footer>
    
-    <div class="teal-div">
-        <h3 id="skills">Habilidades:</h3>
-        <ul>
-            <li class="emphasis"><b>Rápido aprendizado</b></li>
-            <li>Liderança</li>
-            <li>Adaptabilidade</li>
-            <li>Capacidade de perfomar sob pressão</li>
-        </ul>
-    </div>
-    <div>
-        <h3 id="links">Links Úteis:</h3>
-        <ul>
-            <li><a href='#picture'>Veja minha foto de perfil.</a></li>
-            <li><a href='https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk' target="_blank">
-                Veja o tipo de conteúdo que eu gosto.</a></li>
-        </ul>
-    </div>
     
-    <div class="teal-div">
-        <h3>Índice</h3>
-        <ol>
-            <li><a href='#profile'>Perfil</a></li>
-            <li><a href='#skills'>Habilidades</a></li>
-            <li><a href='#links'>Links Úteis</a></li>
-        </ol>
-    </div>
 </body>
 </html>
